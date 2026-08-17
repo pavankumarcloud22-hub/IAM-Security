@@ -1,0 +1,39 @@
+# Terraform working directory
+.terraform/
+**/.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+**/*.tfstate
+**/*.tfstate.*
+
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# Terraform plan files
+*.tfplan
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Secrets / environment files
+.env
+.env.*
+*.pem
+*.key
+
+# AWS credentials
+.aws/
+credentials
+
+# CDK / Node
+cdk.out/
+node_modules/
+
+# Editor / OS files
+.vscode/
+.DS_Store
+Thumbs.db
